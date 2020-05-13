@@ -27,7 +27,6 @@ public class CancelOrder {
             commend.append(String.format(modle, strs[0].trim(), strs[1].trim())).append("\n");
 
         }
-
         commend.append(") | telnet 127.0.0.1 51320");
 
         writer.write(commend.toString());
